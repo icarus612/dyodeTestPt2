@@ -1,0 +1,78 @@
+h1,  a {
+  font-family: 'Indie Flower', cursive;
+}
+
+h2, h3, h4, h5, h6, p, button {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.hero {
+  background-image: url("../images/HeroImage1Mobile.jpg");
+	background-position: 70% 0%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container {
+	box-sizing: border-box;
+  width: 100%;
+	padding: 100px 50px;
+	position: relative;
+	text-align: left;
+	z-index: 2;
+}
+
+.hero-button {
+  background-color: black;
+  padding: 6px 20px;
+  color: #fff;
+  border: unset;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.hero-container p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.hero-title {
+	color: white;
+	font-family: sans-serif;
+	font-size: 36px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+@media screen and (min-width:650px) {
+  .hero {
+    background-position: 70% 50%;
+    background-size: cover;
+    background-image: url("../images/HeroImage1.jpg");
+    height: 500px;
+  }
+
+}
+
+@media screen and (min-width:1100px) {
+  .hero {
+    background-position: 20% 50%;
+    height: 600px;
+  }
+
+}
+	
+@media screen and (min-width:1600) {
+  .hero {
+    height: 700px;
+  }
+}
+
