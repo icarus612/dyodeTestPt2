@@ -8,10 +8,10 @@ const Products = () => {
         let flkty = new Flickity('.products-flickity', {
             wrapAround: true,
             pageDots: false,
-            cellAlign: 'start',
+            cellAlign: 'left',
             setGallerySize: false,
             draggable: true,
-            lazyLoad: 0,
+            lazyLoad: 2
         });
     });
     let flickityGal = [];

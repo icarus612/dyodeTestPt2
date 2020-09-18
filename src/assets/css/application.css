@@ -342,7 +342,6 @@ ul.navbar li {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  z-index: -1;
 }
 
 .product-cell {
@@ -364,12 +363,7 @@ ul.navbar li {
 .products-flickity .flickity-viewport {
   width: 100%;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   height: 400px;
-  z-index: 10;
-  position: relative;
 }
 
 .products-flickity .flickity-slider {
@@ -379,7 +373,6 @@ ul.navbar li {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 20;
 }
 
 .flickity-button {
@@ -390,8 +383,13 @@ ul.navbar li {
   background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 3;
   z-index: 100;
+  transition: 300ms;
+}
+
+.flickity-button:hover {
+  transform: translateY(-2px);
+  transition: 300ms;
 }
 
 .flickity-button.next {
