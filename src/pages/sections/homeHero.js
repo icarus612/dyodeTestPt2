@@ -16,7 +16,8 @@ const HomeHero = () => {
             setGallerySize: false,
             prevNextButtons: false,
             lazyLoad: 2,
-            freeScroll: true
+            freeScroll: true,
+            draggable: true
         });
         window.addEventListener("resize", () => setWidth(window.innerWidth));
     });
