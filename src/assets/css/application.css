@@ -1,8 +1,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Italic.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-Italic.woff') format('woff');
+  src: url('fonts/Lato/Lato-Italic.woff2') format('woff2'),
+      url('fonts/Lato/Lato-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-HeavyItalic.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-HeavyItalic.woff') format('woff');
+  src: url('fonts/Lato/Lato-HeavyItalic.woff2') format('woff2'),
+      url('fonts/Lato/Lato-HeavyItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -19,8 +19,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-LightItalic.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-LightItalic.woff') format('woff');
+  src: url('fonts/Lato/Lato-LightItalic.woff2') format('woff2'),
+      url('fonts/Lato/Lato-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -28,8 +28,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Thin.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-Thin.woff') format('woff');
+  src: url('fonts/Lato/Lato-Thin.woff2') format('woff2'),
+      url('fonts/Lato/Lato-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -37,8 +37,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Black.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-Black.woff') format('woff');
+  src: url('fonts/Lato/Lato-Black.woff2') format('woff2'),
+      url('fonts/Lato/Lato-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -46,8 +46,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Bold.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-Bold.woff') format('woff');
+  src: url('fonts/Lato/Lato-Bold.woff2') format('woff2'),
+      url('fonts/Lato/Lato-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -55,8 +55,8 @@
 
 @font-face {
   font-family: 'Lato Hairline';
-  src: url('/fonts/Lato/Lato-HairlineItalic.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-HairlineItalic.woff') format('woff');
+  src: url('fonts/Lato/Lato-HairlineItalic.woff2') format('woff2'),
+      url('fonts/Lato/Lato-HairlineItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -64,8 +64,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-SemiboldItalic.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-SemiboldItalic.woff') format('woff');
+  src: url('fonts/Lato/Lato-SemiboldItalic.woff2') format('woff2'),
+      url('fonts/Lato/Lato-SemiboldItalic.woff') format('woff');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -73,8 +73,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Regular.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-Regular.woff') format('woff');
+  src: url('fonts/Lato/Lato-Regular.woff2') format('woff2'),
+      url('fonts/Lato/Lato-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -82,8 +82,8 @@
 
 @font-face {
   font-family: 'Lato Hairline';
-  src: url('/fonts/Lato/Lato-Hairline.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-Hairline.woff') format('woff');
+  src: url('fonts/Lato/Lato-Hairline.woff2') format('woff2'),
+      url('fonts/Lato/Lato-Hairline.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -91,8 +91,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Semibold.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-Semibold.woff') format('woff');
+  src: url('fonts/Lato/Lato-Semibold.woff2') format('woff2'),
+      url('fonts/Lato/Lato-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -100,8 +100,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-BlackItalic.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-BlackItalic.woff') format('woff');
+  src: url('fonts/Lato/Lato-BlackItalic.woff2') format('woff2'),
+      url('fonts/Lato/Lato-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -109,8 +109,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-MediumItalic.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-MediumItalic.woff') format('woff');
+  src: url('fonts/Lato/Lato-MediumItalic.woff2') format('woff2'),
+      url('fonts/Lato/Lato-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -118,8 +118,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-BoldItalic.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-BoldItalic.woff') format('woff');
+  src: url('fonts/Lato/Lato-BoldItalic.woff2') format('woff2'),
+      url('fonts/Lato/Lato-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -127,8 +127,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Heavy.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-Heavy.woff') format('woff');
+  src: url('fonts/Lato/Lato-Heavy.woff2') format('woff2'),
+      url('fonts/Lato/Lato-Heavy.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -136,8 +136,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Light.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-Light.woff') format('woff');
+  src: url('fonts/Lato/Lato-Light.woff2') format('woff2'),
+      url('fonts/Lato/Lato-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -145,8 +145,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-Medium.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-Medium.woff') format('woff');
+  src: url('fonts/Lato/Lato-Medium.woff2') format('woff2'),
+      url('fonts/Lato/Lato-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -154,8 +154,8 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url('/fonts/Lato/Lato-ThinItalic.woff2') format('woff2'),
-      url('/fonts/Lato/Lato-ThinItalic.woff') format('woff');
+  src: url('fonts/Lato/Lato-ThinItalic.woff2') format('woff2'),
+      url('fonts/Lato/Lato-ThinItalic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
   font-display: swap;
@@ -165,9 +165,9 @@
 
 @font-face {
   font-family: 'Pacifico';
-  src: url("/fonts/PacificoFont/Pacifico.ttf") format('truetype'),
-      url('/fonts/PacificoFont/Pacifico.woff2') format('woff2'),
-      url('/fonts/PacificoFont/Pacifico.woff') format('woff');
+  src: url("fonts/PacificoFont/Pacifico.ttf") format('truetype'),
+      url('fonts/PacificoFont/Pacifico.woff2') format('woff2'),
+      url('fonts/PacificoFont/Pacifico.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -177,12 +177,22 @@ body {
   margin: 0;
 }
 
-h1,  a {
-  font-family: "Pacifico";
+h1, h2, h3, h4, h5, h6, input[type=submit] {
+  font-family: 'Pacifico';
+  font-weight: normal;
+  font-style: normal;
 }
 
-h2, h3, h4, h5, h6, p, button {
+li, a, p, button, input[type=text]{
   font-family: "Lato";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title {
+  font-family: 'Pacifico';
+  font-weight: normal;
+  font-style: normal;
 }
 
 ul {     
@@ -236,11 +246,14 @@ ul.navbar li {
 .hero-container, .shop-container {
   max-width: 1600px;
 	box-sizing: border-box;
-  width: 100%;
 	padding: 20px;
 	position: relative;
 	text-align: left;
 	z-index: 2;
+}
+
+.hero-container{
+  width: 100%;
 }
 
 .hero-button {
@@ -369,8 +382,6 @@ ul.navbar li {
   align-items: center;
 }
 
-
-
 .shop-button {
   background-color: #0D5453;
   padding: 6px 20px;
@@ -445,10 +456,11 @@ ul.navbar li {
 .subscribe-box {
   position: relative;
   flex: 1 1 50%;
-  padding: 20px;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-self: center;
+  margin-bottom: 10px;
 }
 
 .subscribe-box input[type=text] {
@@ -458,7 +470,7 @@ ul.navbar li {
 }
 
 .subscribe-box input[type=submit] {
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   background-color: transparent;
   color: #fff;
   padding: 4px 15px;
@@ -586,8 +598,17 @@ ul.navbar li {
     flex: 1 1 25%;
   }
 
+  .subscribe-box {
+    text-align: left;
+    padding: 20px;
+  }
+
   .subscribe-box input[type=text] {
     width: 250;
+  }
+
+  .subscribe-box input[type=submit] {
+    border: 3px solid #fff;
   }
 }
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Flickity from 'flickity';
-import ProductImage from '../../assets/images/ProductImage1.jpg';
+import ProductImage from '../../assets/images/ProductImage1.jpg'
 
 const Products = () => {
 
@@ -11,7 +11,7 @@ const Products = () => {
             cellAlign: 'start',
             setGallerySize: false,
             draggable: true,
-            lazyLoad: 0,
+            lazyLoad: 0
         });
     });
     let flickityGal = [];
