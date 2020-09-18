@@ -182,7 +182,7 @@ h1,  a {
 }
 
 h2, h3, h4, h5, h6, p, button {
-  font-family: Lato;
+  font-family: "Lato";
 }
 
 ul {     
@@ -233,7 +233,7 @@ ul.navbar li {
   align-items: center;
 }
 
-.hero-container {
+.hero-container, .shop-container {
   max-width: 1600px;
 	box-sizing: border-box;
   width: 100%;
@@ -260,7 +260,6 @@ ul.navbar li {
 
 .hero-title {
 	color: white;
-	font-size: 36px;
 	font-weight: 500;
 	letter-spacing: 1px;
 }
@@ -370,14 +369,7 @@ ul.navbar li {
   align-items: center;
 }
 
-.shop-container {
-  box-sizing: border-box;
-  width: auto;
-	padding: 20px 80px;
-	position: relative;
-	text-align: left;
-	z-index: 2;
-}
+
 
 .shop-button {
   background-color: #0D5453;
@@ -396,8 +388,6 @@ ul.navbar li {
 
 .shop-title {
 	color: white;
-	font-size: 36px;
-	font-weight: 500;
 	letter-spacing: 1px;
 }
 
@@ -564,7 +554,7 @@ ul.navbar li {
     height: 500px;
   }
 
-  .hero-container {
+  .hero-container, .shop-container {
     padding: 20px 80px;
   }
 
