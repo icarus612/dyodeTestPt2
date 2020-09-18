@@ -26,9 +26,9 @@ const Products = () => {
                     <p>
                         Women's T-Shirt
                     </p>
-                    <p>
+                    <h5 className="pacifico green">
                         $19.99
-                    </p>
+                    </h5>
                 </div>
             </div>
         )

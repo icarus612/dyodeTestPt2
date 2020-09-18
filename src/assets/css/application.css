@@ -201,6 +201,10 @@ li, a, p, button, input[type=text]{
   font-style: normal;
 }
 
+.green {
+  color: #0D5453;
+}
+
 .title {
   font-family: 'Pacifico';
   font-weight: normal;
@@ -239,6 +243,7 @@ h4 {
 h5 {
   font-size: .8rem;
   line-height: .9rem;
+  margin: 0;
 }
 
 h6 {
