@@ -307,7 +307,7 @@ ul.navbar li {
   font-size: 14px;
 }
 
-.hero-container p {
+.hero-container h2 {
   color: white;
   font-size: 18px;
   letter-spacing: 1px;
@@ -433,10 +433,8 @@ ul.navbar li {
   font-size: 14px;
 }
 
-.shop-container p {
+.shop-container h2 {
   color: white;
-  font-size: 18px;
-  letter-spacing: 1px;
 }
 
 .shop-title {
