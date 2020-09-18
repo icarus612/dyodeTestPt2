@@ -278,16 +278,70 @@ ul.navbar li {
 }
 
 .hero {
-  background-image: url("../images/HeroImage1Mobile.jpg");
-	background-position: 70% 0%;
-	background-repeat: no-repeat;
-	background-size: 100%;
 	overflow: hidden;
 	position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 400px;
+}
+
+.hero-flickity {
+  height: 400px;
+  position: absolute;
+  width: 100%;
+}
+
+.hero-flickity .flickity-viewport {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-flickity .flickity-slider {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-cell {
+  height: 100%;
+  flex: 1 1 100%;
+  z-index: -1;
+}
+
+.hero-cell.is-selected{
+  height: 100%;
+  flex: 1 1 100%;
+  z-index: 1;
+
+}
+
+.flickity-page-dots {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+  margin-top: -50px;
+}
+
+.flickity-page-dots .dot{
+  width: 25px;
+  height: 10px;
+  border-radius: 1px;
+  list-style-type: none;
+  border: 2px solid rgba(255,255,255,.6);
+  margin: 4px;
+}
+
+.flickity-page-dots .dot.is-selected{
+  background-color: rgba(255,255,255,.6);
 }
 
 .hero-container, .shop-container {
@@ -630,10 +684,7 @@ ul.navbar li {
     padding: 0 20px;
   }
 
-  .hero {
-    background-position: 70% 50%;
-    background-size: cover;
-    background-image: url("../images/HeroImage1.jpg");
+  .hero, .hero-flickity {
     height: 500px;
   }
 
@@ -689,8 +740,7 @@ ul.navbar li {
 }
 
 @media screen and (min-width:1100px) {
-  .hero {
-    background-position: 20% 50%;
+  .hero, .hero-flickity{
     height: 600px;
   }
 
@@ -716,7 +766,7 @@ ul.navbar li {
 }
 	
 @media screen and (min-width:1600) {
-  .hero {
+  .hero, .hero-flickity{
     height: 700px;
   }
 
