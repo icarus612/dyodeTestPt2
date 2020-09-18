@@ -172,7 +172,7 @@ a {
 }
 
 .shop-container {
-	box-sizing: border-box;
+  box-sizing: border-box;
   width: auto;
 	padding: 20px 80px;
 	position: relative;
@@ -318,7 +318,7 @@ a {
   position: relative;
   z-index: 1;
   width: auto;
-  flex: 1 1 30%;
+  flex: 1 1 45%;
 }
 
 .card img {
@@ -386,8 +386,8 @@ a {
 
   .card {
     width: unset;
-    flex: 1 1 auto;
     padding: 15px;
+    flex: 1 1 25%;
   }
 
   .subscribe-box input[type=text] {
