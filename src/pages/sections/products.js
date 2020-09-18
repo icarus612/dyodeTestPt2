@@ -20,9 +20,9 @@ const Products = () => {
             <div key={i} className="product-cell">
                 <img src={ProductImage} />
                 <div className="product-cell-footer">
-                    <h5>
+                    <p className="product-title">
                         Product Title
-                    </h5>
+                    </p>
                     <p>
                         Women's T-Shirt
                     </p>
