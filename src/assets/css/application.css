@@ -1,5 +1,6 @@
 body { 
   margin: 0;
+  overflow: hidden;
 }
 
 h1,  a {
@@ -17,6 +18,32 @@ ul {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.navigation {
+  color: #fff;
+}
+
+.promo {
+  background-color: #000;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: #0D5453;
+  overflow: hidden;
+  margin: 0;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.navbar li {
+  padding: 10px;
 }
 
 .hero {
@@ -355,6 +382,11 @@ a {
 }
 
 @media screen and (min-width:650px) {
+  .navbar {
+    justify-content: center;
+    padding: 0 20px;
+  }
+
   .hero {
     background-position: 70% 50%;
     background-size: cover;
