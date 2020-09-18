@@ -309,7 +309,6 @@ ul.navbar li {
 
 .hero-container h2 {
   color: white;
-  font-size: 18px;
   letter-spacing: 1px;
 }
 
@@ -433,13 +432,12 @@ ul.navbar li {
   font-size: 14px;
 }
 
-.shop-container h2 {
+.shop-container h3 {
   color: white;
 }
 
 .shop-title {
 	color: white;
-	letter-spacing: 1px;
 }
 
 .insta {
