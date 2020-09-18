@@ -1,37 +1,25 @@
-import React from "react";
-import Flickity from 'react-flickity-component';
- 
-const flickityOptions = {
-    initialIndex: 2
-}
- 
-const Carousel = () => {
-  return (
-    <Flickity
-      className={'carousel'} // default ''
-      elementType={'div'} // default 'div'
-      options={flickityOptions} // takes flickity options {}
-      disableImagesLoaded={false} // default false
-      reloadOnUpdate // default false
-      static // default false
-    >
-      <img src="/images/placeholder.png"/>
-      <img src="/images/placeholder.png"/>
-      <img src="/images/placeholder.png"/>
-    </Flickity>
-  )
-}
+import React, { useEffect } from "react";
+import Card from "../components/card.js";
+import womensImg from "../../assets/images/WomensImage.jpg";
+import mensImg from "../../assets/images/MensImage.jpg";
+import accessoriesImg from "../../assets/images/AccessoriesImage.jpg";
+import accessoriesImgMob from "../../assets/images/AccessoriesImageMobile.jpg";
 
 const Collections = () => {
-    return (
-        <section className="hero">
-            <header className="hero-container">
-                <h1 className="hero-title">This is a large hero section</h1>
-                <p>This is the text that describes the hero section.</p>
-                <button className="hero-button">SHOP NOW</button>
-            </header>
-        </section>
-    );
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const breakpoint = 650;
+
+  useEffect(()=> {
+      window.addEventListener("resize", () => setWidth(window.innerWidth));
+  });
+
+  return (
+      <section className="collection container">
+        <Card img={womensImg} title="Womens" />
+        <Card img={mensImg} title="Mens" />
+        <Card img={width > breakpoint ? accessoriesImg : accessoriesImgMob} title="Accessories" />
+      </section>
+  );
 }
 
 export default Collections;

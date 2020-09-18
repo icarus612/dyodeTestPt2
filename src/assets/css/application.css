@@ -1,9 +1,22 @@
+body { 
+  margin: 0;
+}
+
 h1,  a {
   font-family: 'Indie Flower', cursive;
 }
 
 h2, h3, h4, h5, h6, p, button {
   font-family: 'Quicksand', sans-serif;
+}
+
+ul {     
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .hero {
@@ -20,9 +33,10 @@ h2, h3, h4, h5, h6, p, button {
 }
 
 .hero-container {
+  max-width: 1600px;
 	box-sizing: border-box;
   width: 100%;
-	padding: 100px 50px;
+	padding: 20px 80px;
 	position: relative;
 	text-align: left;
 	z-index: 2;
@@ -52,6 +66,294 @@ h2, h3, h4, h5, h6, p, button {
 	letter-spacing: 1px;
 }
 
+.collection {
+	overflow: hidden;
+	position: relative;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+}
+
+.products {
+	position: relative;
+  text-align: center;
+}
+
+.products-flickity {
+	overflow: hidden;
+	position: relative;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: -1;
+}
+
+.product-cell {
+  width: 50%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 50%;
+  margin: auto 10px;
+}
+
+.product-cell img {
+  margin: auto;
+  height: 100%;
+  position: relative;
+}
+
+.products-flickity .flickity-viewport {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 400px;
+  z-index: 10;
+  position: relative;
+}
+
+.products-flickity .flickity-slider {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+
+.flickity-button {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border: unset;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 3;
+  z-index: 100;
+}
+
+.flickity-button.next {
+  background-image: url("../images/ArrowRight.png");
+  position: absolute;
+  right: 50px;
+}
+
+.flickity-button.previous {
+  background-image: url("../images/ArrowLeft.png");
+  position: absolute;
+  left: 50px;
+}
+
+.flickity-button-icon {
+  display: none;
+}
+
+.shop {
+  background-image: url("../images/HeroImage2Mobile.jpg");
+	background-position: 70% 0%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	position: relative;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.shop-container {
+	box-sizing: border-box;
+  width: auto;
+	padding: 20px 80px;
+	position: relative;
+	text-align: left;
+	z-index: 2;
+}
+
+.shop-button {
+  background-color: #0D5453;
+  padding: 6px 20px;
+  color: #fff;
+  border: unset;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.shop-container p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.shop-title {
+	color: white;
+	font-family: sans-serif;
+	font-size: 36px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.insta {
+  background-color: #fff;
+	overflow: hidden;
+	position: relative;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.insta-container {
+  background-color: #fff;
+	overflow: hidden;
+	position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  text-align: center;
+}
+
+.insta-image {
+  padding: 10px;
+  position: relative;
+  width: 30%;
+  flex: 1 1 33%;
+}
+
+.subscribe {
+  background-color: #0D5453;
+  position: relative;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe .h2-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.subscribe-box {
+  position: relative;
+  flex: 1 1 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.subscribe-box input[type=text] {
+  border: none;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.subscribe-box input[type=submit] {
+  border: 3px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 4px 15px;
+  margin-left: 5px;
+}
+
+.footer {
+  background-color: #000;
+  display: flex;
+  position: relative;
+  color: #fff;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-links-left {
+  display: flex;
+  position: relative;
+}
+
+.footer-links-left .title {
+  margin-bottom: 5px;
+}
+
+.footer-links-right {
+  margin: 0 35px;
+}
+
+.footer-links-right h5 {
+  margin-left: 5px;
+}
+
+.footer-links-right-img {
+  display: flex;
+  position: relative;
+}
+
+.footer-links-right-img img {
+  margin: auto 5px;
+}
+
+.card {
+  padding: 7px;
+  position: relative;
+  z-index: 1;
+  width: auto;
+  flex: 1 1 30%;
+}
+
+.card img {
+  position: relative;
+  width: 100%;
+  z-index: -1;
+}
+
+.card-footer {
+  text-align: center;
+  background-color: #0D5453;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  height: 50px;
+  margin-top: -50px;
+}
+
+.card-footer h3 {
+  margin: auto;
+}
+
+.container {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.subscribe .h2-wrapper, 
+.subscribe-container, 
+.footer,
+.footer-links-left {
+  flex-direction: column;
+}
+
 @media screen and (min-width:650px) {
   .hero {
     background-position: 70% 50%;
@@ -60,6 +362,37 @@ h2, h3, h4, h5, h6, p, button {
     height: 500px;
   }
 
+  .subscribe .h2-wrapper img {
+    margin-right: 10px;
+  }
+
+  .shop {
+    background-position: 70% 50%;
+    background-size: cover;
+    background-image: url("../images/HeroImage2.jpg");
+    height: 500px;
+  }
+
+  .products-flickity .flickity-viewport {
+    padding: 30px;
+  }
+
+  .subscribe .h2-wrapper, 
+  .subscribe-container, 
+  .footer,
+  .footer-links-left {
+    flex-direction: row;
+  }
+
+  .card {
+    width: unset;
+    flex: 1 1 auto;
+    padding: 15px;
+  }
+
+  .subscribe-box input[type=text] {
+    width: 250;
+  }
 }
 
 @media screen and (min-width:1100px) {
@@ -68,11 +401,37 @@ h2, h3, h4, h5, h6, p, button {
     height: 600px;
   }
 
+  .shop {
+    background-position: 20% 50%;
+    height: 600px;
+  }
+
+  .insta-image {
+    width: 18%;
+    flex: 1 1 20%;
+  }
+
+  .product-cell {
+    width: 25%;
+    flex: 1 1 25%;
+  }
 }
 	
 @media screen and (min-width:1600) {
   .hero {
     height: 700px;
+  }
+
+  .hero-container {
+    padding: 20;
+  }
+
+  .shop {
+    height: 700px;
+  }
+
+  .products-flickity .flickity-viewport {
+    width: 1600px;  
   }
 }
 
