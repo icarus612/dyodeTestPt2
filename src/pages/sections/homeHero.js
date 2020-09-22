@@ -25,7 +25,7 @@ const HomeHero = () => {
         imageDifMob = [image1Mob, image2Mob],
         flickityGal = [];
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 4; i++) {
         flickityGal.push(
             <div key={i} className="hero-cell">
                 <img src={width > breakpoint ? imageDif[i % 2] : imageDifMob[i % 2]} />
@@ -38,7 +38,7 @@ const HomeHero = () => {
                 {flickityGal.map((i)=>  i)}
             </div>
             <div className="hero-container">
-                <h1 className="shop-title">Title Goes Here</h1>
+                <h1 className="hero-title">Title Goes Here</h1>
                 <h2 className="lato">Tagline will go right here</h2>
                 <button className="hero-button">SHOP NOW</button>
             </div>

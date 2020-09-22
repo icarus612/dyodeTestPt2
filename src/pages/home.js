@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/application.css';
+import '../assets/css/application.scss';
 import NavBar from './sections/navbar.js';
 import HomeHero from'./sections/homeHero.js';
 import Collections from'./sections/collections.js';
