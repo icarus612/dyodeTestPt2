@@ -284,10 +284,10 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 300px;
+  min-height: 250px;
 
   .hero-flickity {
-    height: 300px;
+    height: 250px;
     position: absolute;
     width: 100%;
 
@@ -310,13 +310,13 @@ h6 {
   }
 
   .hero-cell {
-    height: 300px;
+    height: 250px;
     flex: 1 1 100%;
     z-index: -1;
     width: 100%;
     
     img {
-      height: 300px;
+      height: 250px;
       width: 100%;
       object-fit: cover;
     }
@@ -328,56 +328,58 @@ h6 {
     
     }
   }
-}
 
-.flickity-page-dots {
-  display: flex;
-  justify-content: center;
-  z-index: 10;
-  position: relative;
-  margin-top: -50px;
-  padding-left: 0;
+  .hero-container{
+    width: 100%;
+    max-width: 1600px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: left;
+    z-index: 2;
 
-  .dot {
-    width: 14px;
-    height: 14px;
-    list-style-type: none;
-    background-color: rgba(255,255,255,.5);
-    margin: 4px;
-  
-    &.is-selected {
-      background-color: rgba(255,255,255,1);
+    h2 {
+      color: white;
+      letter-spacing: 1px;
+    }
+
+    .hero-button {
+      background-color: black;
+      padding: 6px 20px;
+      color: #fff;
+      border: unset;
+      margin-left: 5px;
+      font-size: 14px;
+    }
+    
+    .hero-title {
+      color: white;
+    }
+  }
+
+  .flickity-page-dots {
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+    margin-top: -50px;
+    padding-left: 0;
+
+    .dot {
+      width: 14px;
+      height: 14px;
+      list-style-type: none;
+      background-color: rgba(255,255,255,.5);
+      margin: 4px;
+    
+      &.is-selected {
+        background-color: rgba(255,255,255,1);
+      }
     }
   }
 }
 
-.hero-container{
-  width: 100%;
-  max-width: 1600px;
-	box-sizing: border-box;
-	padding: 20px;
-	position: relative;
-	text-align: left;
-	z-index: 2;
-
-  h2 {
-    color: white;
-    letter-spacing: 1px;
-  }
-
-  .hero-button {
-    background-color: black;
-    padding: 6px 20px;
-    color: #fff;
-    border: unset;
-    margin-left: 5px;
-    font-size: 14px;
-  }
-  
-  .hero-title {
-    color: white;
-  }
-}
 
 .collection {
 	overflow: hidden;
@@ -513,7 +515,7 @@ h6 {
   background-color: #fff;
 	overflow: hidden;
 	position: relative;
-  padding: 50px 20px;
+  padding: 20px 20px;
   text-align: center;
 
   .insta-container {
@@ -723,6 +725,7 @@ h6 {
 
   .products {
     .product-cell {
+      height: 250px;
       width: 35%;
       flex: 1 1 35%;
     }
@@ -794,10 +797,16 @@ h6 {
 @media screen and (min-width:1100px) {
   .hero {
     height: 500px;
+
     .hero-flickity {
       height: 500px;
+
       .hero-cell {
         height: 500px;
+
+        img {
+          height: 500px;
+        }
       }
     }
   }
@@ -808,6 +817,8 @@ h6 {
   }
 
   .insta {
+    padding: 30px 20px;
+
     .insta-image {
       width: 18%;
       flex: 1 1 20%;
@@ -816,6 +827,7 @@ h6 {
 
   .products {
     .product-cell {
+      margin: 10px;
       width: 25%;
       flex: 1 1 25%;
     }
@@ -830,10 +842,16 @@ h6 {
 @media screen and (min-width:1600) {
   .hero {
     height: 600px;
+
     .hero-flickity {
       height: 600px;
+
       .hero-cell {
         height: 600px;
+
+        img {
+          height: 600px;
+        }
       }
     }
   }

@@ -15,7 +15,7 @@ const HomeHero = () => {
             cellAlign: 'left',
             setGallerySize: false,
             prevNextButtons: false,
-            lazyLoad: 2,
+            lazyLoad: 0,
             freeScroll: true,
             draggable: true
         });
