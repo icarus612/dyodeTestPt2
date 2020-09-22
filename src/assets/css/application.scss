@@ -545,47 +545,52 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+  overflow: hidden;
 
-.subscribe .h2-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  .h2-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-.subscribe-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  max-width: 1100px;
-  margin: auto;
-}
-
-.subscribe-box {
-  position: relative;
-  flex: 1 1 50%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-self: center;
-  margin-bottom: 10px;
-
-  input[type=text] {
-    border: none;
+  .subscribe-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
     width: 100%;
-    padding-left: 5px;
   }
 
-  input[type=submit] {
-    border: 2px solid #fff;
-    background-color: transparent;
-    color: #fff;
-    padding: 4px 25px;
-    margin-left: 5px;
+  .subscribe-box {
+    position: relative;
+    flex: 1 1 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 10px;
+
+    input[type=text] {
+      border: none;
+      padding-left: 8px;
+      width: 180px;
+
+      @media screen and (min-width: 370px) {
+        width: 220px;
+      }
+    }
+
+    input[type=submit] {
+      border: 2px solid #fff;
+      background-color: transparent;
+      color: #fff;
+      padding: 4px 25px;
+      margin-left: 5px;
+    }
   }
 }
-
 .footer {
   background-color: #000;
   display: flex;
@@ -599,14 +604,26 @@ h6 {
     position: relative;
 
     .title {
+      padding: 0 35px;
       margin-bottom: 5px;
+    }
+
+    .collapsible {
+      overflow: hidden;
+
+      ul {
+        transition: 300ms;
+        margin-top: 0;
+        position: relative;
+      }
     }
   }
 
   .footer-links-right {
     margin: 0 35px;
-    h5 {
-      margin-bottom: 10px;
+    
+    h4 {
+      margin-bottom: 15px;
     }
   }
 
@@ -678,8 +695,8 @@ h6 {
   }
   
   h4 {
-    font-size: 1.7rem;
-    line-height: 1.8rem;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
   }
   
   h5 {
@@ -711,6 +728,7 @@ h6 {
         height: 450px;
 
         img {
+          object-position: 20% 40%;
           height: 450px;
         }
       }
@@ -747,8 +765,23 @@ h6 {
     }
   }
 
-  .subscribe .h2-wrapper img {
-    margin-right: 10px;
+  .subscribe {
+    .h2-wrapper img {
+      margin-right: 10px;
+    }
+
+    .subscribe-box {
+      text-align: left;
+      padding: 20px;
+      
+      input[type=text] {
+        width: 250px;
+      }
+
+      input[type=submit] {
+        border: 3px solid #fff;
+      }
+    }
   }
 
   .shop {
@@ -780,32 +813,29 @@ h6 {
     }
   }
 
-  .subscribe-box {
-    text-align: left;
-    padding: 20px;
-    
-    input[type=text] {
-      width: 250;
-    }
-
-    input[type=submit] {
-      border: 3px solid #fff;
+  .footer {
+    .footer-links-left {
+      .collapsible {
+        height: unset;
+        margin-top: 10px;
+      }
     }
   }
 }
 
 @media screen and (min-width:1100px) {
   .hero {
-    height: 500px;
+    height: 600px;
 
     .hero-flickity {
-      height: 500px;
+      height: 600px;
 
       .hero-cell {
-        height: 500px;
+        height: 600px;
 
         img {
-          height: 500px;
+          object-position: 20% 50%;
+          height: 600px;
         }
       }
     }
@@ -839,18 +869,18 @@ h6 {
   }
 }
 	
-@media screen and (min-width:1600) {
+@media screen and (min-width:1600px) {
   .hero {
-    height: 600px;
+    height: 700px;
 
     .hero-flickity {
-      height: 600px;
+      height: 700px;
 
       .hero-cell {
-        height: 600px;
+        height: 700px;
 
         img {
-          height: 600px;
+          height: 700px;
         }
       }
     }
